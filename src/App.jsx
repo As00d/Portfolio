@@ -1,7 +1,10 @@
+import './index.css'
 
 function App() {
   return (
-   <div>Hello</div>
+    <div className='text-green-500'>
+      Hello
+    </div>
   )
 }
 
