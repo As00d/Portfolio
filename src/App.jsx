@@ -1,10 +1,11 @@
+import Navbar from './Component/Navbar/Navbar'
 import './index.css'
 
 function App() {
   return (
-    <div className='text-green-500'>
-      Hello
-    </div>
+   <div>
+    <Navbar/>
+   </div>
   )
 }
 
