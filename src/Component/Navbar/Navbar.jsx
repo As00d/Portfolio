@@ -11,7 +11,7 @@ function Navbar() {
   }
 
   return (
-    <div className="bg-[#16191f] text-slate-200">
+    <div className="bg-[#161d26] text-[#c6c6cd] font-roboto">
       <div className="md:flex md:justify-between md:items-center max-w-8xl m-auto">
         <div className="flex justify-between">
           <div className="p-4 flex flex-row justify-between w-full">
@@ -24,15 +24,11 @@ function Navbar() {
           </div>
         </div>
         <div className="capitalize">
-          {isMenubarOpen ? (
-            <ul className="px-4 md:flex md:gap-3 ">
-              {links.map((link) => {
-                return <NavbarLinks link={link} key={link.id} />;
-              })}
-            </ul>
-          ) : (
-            <></>
-          )}
+          <ul className="px-4 md:flex md:gap-3 md:block">
+            {links.map((link) => {
+              return <NavbarLinks link={link} key={link.id} />;
+            })}
+          </ul>
         </div>
         <div className="capitalize">
           <ul className="px-4 md:flex md:gap-3 hidden ">
