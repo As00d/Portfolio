@@ -1,9 +1,9 @@
 import { FaDownload } from "react-icons/fa";
 function Introduction() {
   return (
-    <main className="bg-[#000616] w-full flex justify-center text-white font-sans">
-      <div className="container flex max-w-6xl bg-[linear-gradient(270deg,_#0000_0%,_#000000e6_30%,_#000000e6_70%,_#0000_100%)] flex-col md:flex-row">
-        <div className="content  flex flex-col justify-around ">
+    <main className="bg-[#000616] w-full flex justify-center text-white font-sans p-4">
+      <div className="container flex max-w-6xl bg-[linear-gradient(270deg,_#0000_0%,_#000000e6_30%,_#000000e6_70%,_#0000_100%)] flex-col md:flex-row py-4 md:p-0">
+        <div className="content  flex flex-col justify-around min-h-80 ">
           <div>
             <h1 className="text-4xl font-bold">
               Hi <span className="animate-move-left-right absolute">👋</span>
@@ -24,10 +24,10 @@ function Introduction() {
             Resume <FaDownload />
           </button>
         </div>
-        <div className="image ">
+        <div className="image">
           <img
-            src="https://cloudscape.aws.dev/__images/yvlrib0vb3vb/6zNak8CW72qjptSjDSykoI/7e06ffa721719a3236babb352256bb02/homepage--header.jpg"
-            alt=""
+            src="public/homepage--header.jpg"
+            alt="background-img"
             className="bg-[linear-gradient(180deg,_#0000_0%,_#000000b3_30%)]"
           />
         </div>
