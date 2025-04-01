@@ -1,4 +1,5 @@
 import { FaFacebook, FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
+import { TbBrandLeetcode } from "react-icons/tb";
 export const links = [
   {
     id: 1,
@@ -25,14 +26,10 @@ export const links = [
 export const social = [
   {
     id: 1,
-    url: "https://www.twitter.com",
-    icon: <FaFacebook />,
+    url: "https://leetcode.com/u/ankisood/",
+    icon: <TbBrandLeetcode />,
   },
-  {
-    id: 2,
-    url: "https://www.twitter.com",
-    icon: <FaTwitter />,
-  },
+
   {
     id: 3,
     url: "https://www.linkedin.com/in/ankita-sood-25aa601a8/",
