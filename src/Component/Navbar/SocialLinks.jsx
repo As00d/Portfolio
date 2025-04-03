@@ -1,4 +1,4 @@
-function SocialLinks({ link }) {
+const SocialLinks = ({ link }) => {
   const { id, url, icon } = link;
   return (
     <li className="pb-1 md:hover:text-[#42b4ff]">
@@ -7,5 +7,5 @@ function SocialLinks({ link }) {
       </a>
     </li>
   );
-}
+};
 export default SocialLinks;

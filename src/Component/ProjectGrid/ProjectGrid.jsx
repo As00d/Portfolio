@@ -1,20 +1,17 @@
 import ProjectItem from "./ProjectItem";
 import { projectData } from "../../Constants/ProjectData";
-function ProjectGrid() {
+
+const ProjectGrid = () => {
   return (
-    <div>
-      <h2>My recent work</h2>
-      <p>
-        Here are a few past design projects I've worked on. Want to see more?
-        Email me.
-      </p>
-      <p>
+    <div className="p-4 flex flex-col justify-center items-center">
+      <h2 className="text-2xl font-bold my-4">My recent projects</h2>
+      <div className="flex flex-wrap max-w-6xl container justify-between">
         {projectData.map((item) => {
-          return <ProjectItem />;
+          return <ProjectItem item={item} key={item.id} />;
         })}
-      </p>
+      </div>
     </div>
   );
-}
+};
 
 export default ProjectGrid;

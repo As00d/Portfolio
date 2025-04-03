@@ -3,7 +3,8 @@ import { FaBars } from "react-icons/fa";
 import { links, social } from "../../Constants/Data";
 import NavbarLinks from "./NavbarLinks";
 import SocialLinks from "./SocialLinks";
-function Navbar() {
+
+const Navbar = () => {
   const [isMenubarOpen, setIsMenubarOpen] = useState(true);
 
   function handleMenubarOpen() {
@@ -40,5 +41,5 @@ function Navbar() {
       </div>
     </div>
   );
-}
+};
 export default Navbar;

@@ -12,7 +12,7 @@ function Introduction() {
           </div>
           <div>
             <h2 className="text-xl  text-[#ebebf0]">
-              Currently working as an Application engineer at Amazon.
+              Application engineer at Amazon.
             </h2>
             <p className="text-[#c6c6cd] text-sm">
               I am actively expanding my expertise in HTML, CSS, JavaScript, and
