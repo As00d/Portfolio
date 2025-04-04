@@ -18,9 +18,11 @@ const Navbar = () => {
           <div className="p-4 flex flex-row justify-between w-full">
             <h1 className="text-2xl "> Ankita Sood</h1>
             <div className="flex flex-col md:hidden">
-              <button>
-                <FaBars onClick={handleMenubarOpen} />
-              </button>
+              {isMenubarOpen && (
+                <button>
+                  <FaBars onClick={handleMenubarOpen} />
+                </button>
+              )}
             </div>
           </div>
         </div>
